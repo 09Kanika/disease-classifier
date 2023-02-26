@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://akshatsanghvi:$HF_TOKEN@huggingface.co/spaces/akshatsanghvi/movie-recommender-system main
+        run: git push --force https://30Kanika:$HF_TOKEN@huggingface.co/spaces/30Kanika/disease-classifier main
